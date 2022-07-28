@@ -1,0 +1,367 @@
+.header-content{
+    display:flex;
+
+
+}
+.header-home{
+    height: 85px;
+    background: url('https://images.unsplash.com/photo-1655667995118-56d57c6f628e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1600&q=80');
+    background-repeat: no-repeat;
+}
+.header{                        
+    width:120px;
+
+}
+.header-content .header img{
+     width: 150px;
+
+
+}
+.header-content .list{
+    display:flex;
+    padding: 20px;
+    margin-left: 550px;
+    font-size: 30px;
+    text-decoration: none;
+
+
+}
+.list a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    cursor: pointer;
+
+}
+.list a:hover{
+    background-color: black;
+
+}
+
+li{
+    list-style: none;
+}
+*{
+    margin: 0;
+}
+hr{
+    color: orange;
+    border: 2px solid orange;
+}
+
+.about{
+    text-align: center;
+    margin-top: 50px;
+}
+.about hr{
+    margin-left: 735px;
+    margin-top: 15px;
+    width: 100px;
+    border: 1px solid orange;
+}
+.myself{
+    display: flex;
+}
+.me{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.image img{
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 40px;
+
+}
+.content{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 790px;
+    height: 260px;
+    padding:20px;
+    background-color:#E8E9EB;
+    border-left: 3px solid orange;
+}
+
+.content h2{
+    margin-left: 170px;
+}
+.content p{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.award{
+    display: flex;
+    margin-top: 40px;
+    padding: 10px;
+    margin-left: 200px;
+
+}
+.award i{
+    color: orange;
+    margin-left: 120px;
+}
+.award h2{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.award p{
+    width: 400px;
+    padding: 10px;
+}
+.skills{
+    
+    background-color: #333;
+    color: white;
+    height: 450px;    
+}
+.skills h1{
+    text-align: center;
+}
+
+#progresshtml{
+    margin-left: 130px;
+    height: 20px;
+    width:1200px;
+    background-color:#ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#html{
+    
+    height:100%;
+    width:0;
+    background-color: orange;
+    transition:5s ease 0.5s;
+
+}
+.skills h4{
+    margin-left: 130px;
+}
+#progresscss{
+    margin-left: 130px;
+    height: 20px;
+    width:1200px;
+    background-color:#ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#css{
+    height:100%;
+    width:0;
+    background-color: orange;
+    transition:5s ease 0.5s;
+
+}
+
+
+#progressbs{
+    margin-left: 130px;
+    height: 20px;
+    width:1200px;
+    background-color:#ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#bs{
+    height:100%;
+    width:0;
+    background-color: orange;
+    transition:5s ease 0.5s;
+
+}
+
+#progresssass{
+    margin-left: 130px;
+    height: 20px;
+    width:1200px;
+    background-color:#ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#sass{
+    height:100%;
+    width:0;
+    background-color: orange;
+    transition:5s ease 0.5s;
+
+}
+
+#progressjs{
+    margin-left: 130px;
+    height: 20px;
+    width:1200px;
+    background-color:#ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#js{
+    height:100%;
+    width:0;
+    background-color: orange;
+    transition:5s ease 0.5s;
+
+}
+#progressreact{
+    margin-left: 130px;
+    height: 20px;
+    width:1200px;
+    background-color:#ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#react{
+    height:100%;
+    width:0;
+    background-color: orange;
+    transition:5s ease 0.5s;
+
+}
+.range{
+    width:200px;
+    height:350px;
+}
+
+.test-header{
+    font-size: x-large;
+    margin-top: 60px;
+    text-align: center;
+}
+.test-header hr{
+    margin-left: 715px;
+    margin-top: 15px;
+    width: 150px;
+    border: 1px solid orange;
+}
+.h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+.test{
+    display: flex;
+    padding: 10px;
+    margin: 30px;
+}
+.people p {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5%;
+}
+.people img{
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    border-radius: 50%;
+    margin-left: 20px;}
+.followers{
+    display: flex;
+    background-color: orange;
+    color: white;
+    padding:5px;
+    
+}
+.icon{
+    font-size: 25px;
+    margin-left: 270px;
+}
+.icon i{
+    margin-left: 45px;
+}
+.icon h1{
+    margin-left: 25px;
+}
+
+.footer{
+    background-color: #494848;
+   
+}
+.footer-1{
+   display: flex;
+}
+.footer .footer-1 .location{
+   margin-left: 250px;
+   padding:20px;
+   margin-top:30px;
+   color: white;
+   
+}
+
+.footer .footer-1 .location h3{
+   margin-bottom: 20px;
+   
+   margin-left: 20px;
+}
+.footer  .footer-1 .location h3 i{
+   padding: 10px;
+   width: 20px;
+   height: 20px;
+   background-color: gray;
+   list-style: none;
+   border-radius: 50%;
+}
+
+.footer  .footer-1 .company{
+   padding:20px;
+   margin-top: 30px;
+   color: white;
+}
+.footer  .footer-1 .company h2{
+   margin-left: 150px;
+   margin-bottom: 20px;
+   color: orange;
+}
+.footer  .footer-1 .company p{
+  width: 250px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+.footer  .footer-1 .navigate li{
+  margin-left: 100px;
+  
+  margin-top: 40px;
+  justify-content: center;
+  
+}
+.footer  .footer-1 .navigate li a{
+   color: white;
+   text-decoration: none;
+   padding: 5px;
+   display: flex;
+   font-size: 25px;   
+}
+.footer  .footer-1 .navigate li h2{
+   color: orange;
+   margin-bottom: 10px;
+
+}
+.footer .footer-1 .navigate li a:hover{
+   color: red;
+}
+
+.footer .footer-icon{
+   margin-left: 680px;
+  
+   
+}
+.footer .footer-icon i{
+   width: 30px;
+   height: 30px;
+   background-color: gray;
+   list-style: none;
+   border-radius: 50%;
+   padding: 10px;
+   color: white;
+   
+}
+.footer .footer-p p{
+   color: white;
+   text-align: center;
+   margin-top: 150px;
+}s

@@ -1,0 +1,43 @@
+.Name input{
+  display: block;
+  padding: 15px 0;
+  border: none;
+  width:300px;
+  border-bottom: 2px solid black;
+  outline: 0;
+}
+
+
+
+
+
+.Name{
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Name label{
+    position:absolute;
+    top: 15px;
+    left: 0;
+}
+
+.Name label:focus,
+.Name label:valid{
+    outline: 0;
+    border-bottom: #444 1.5px solid;
+}
+
+.Name label span {
+    display: inline-block;
+    font-size: 16px;
+    min-width: 5px;
+    /* transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+    transition: 0.09s ease;
+  }
+.Name input:focus + label span,
+  .Name input:valid + label span {
+    color: #444;
+    transform: translateY(-30px);
+  }

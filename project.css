@@ -1,0 +1,183 @@
+.header-content{
+    display:flex;
+
+
+}
+.header-home{
+    height: 85px;
+    background: url('https://images.unsplash.com/photo-1655667995118-56d57c6f628e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1600&q=80');
+    background-repeat: no-repeat;
+}
+.header{                        
+    width:120px;
+
+}
+.header-content .header img{
+    width: 150px;
+
+
+
+}
+.header-content .list{
+    display:flex;
+    padding: 20px;
+    margin-left: 550px;
+    font-size: 30px;
+    text-decoration: none;
+
+
+}
+.list a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    cursor: pointer;
+
+}
+.list a:hover{
+    background-color: black;
+
+}
+
+li{
+    list-style: none;
+}
+*{
+    margin: 0;
+}
+
+hr{
+    color: orange;
+    border: 2px solid orange;
+}
+
+
+.project{
+    
+    background: url('https://images.unsplash.com/photo-1650493217029-c67a70330b22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 3rem;
+    padding: 200px;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+.projects{
+    
+    background: rgb(52, 48, 48);
+    color: white;
+    /* height: 500px; */
+    line-height: 3rem;
+    font-size: x-large;
+    padding-top: 10px;
+   
+}
+i{
+    margin-left: 30px;
+}
+.proj_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #575757;
+    padding-left: 10px;
+    
+}
+.pre{
+    overflow-y: scroll;
+    height: 250px;
+    font-size: large;
+    margin-left: -100px;
+}
+h4{
+    color: orange;
+}
+.footer{
+    background-color: #494848;
+   
+}
+.footer-1{
+   display: flex;
+}
+.footer .footer-1 .location{
+   margin-left: 250px;
+   padding:20px;
+   margin-top:30px;
+   color: white;
+   
+}
+
+.footer .footer-1 .location h3{
+   margin-bottom: 20px;
+   
+   margin-left: 20px;
+}
+.footer  .footer-1 .location h3 i{
+   padding: 10px;
+   width: 20px;
+   height: 20px;
+   background-color: gray;
+   list-style: none;
+   border-radius: 50%;
+}
+
+.footer  .footer-1 .company{
+   padding:20px;
+   margin-top: 30px;
+   color: white;
+}
+.footer  .footer-1 .company h2{
+   margin-left: 150px;
+   margin-bottom: 20px;
+   color: orange;
+}
+.footer  .footer-1 .company p{
+  width: 250px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+.footer  .footer-1 .navigate li{
+  margin-left: 100px;
+  
+  margin-top: 40px;
+  justify-content: center;
+  
+}
+.footer  .footer-1 .navigate li a{
+   color: white;
+   text-decoration: none;
+   padding: 5px;
+   display: flex;
+   font-size: 25px;   
+}
+.footer  .footer-1 .navigate li h2{
+   color: orange;
+   margin-bottom: 10px;
+
+}
+.footer .footer-1 .navigate li a:hover{
+   color: red;
+}
+
+.footer .footer-icon{
+   margin-left: 680px;
+  
+   
+}
+.footer .footer-icon i{
+   width: 30px;
+   height: 30px;
+   background-color: gray;
+   list-style: none;
+   border-radius: 50%;
+   padding: 10px;
+   color: white;
+   
+}
+.footer .footer-p p{
+   color: white;
+   text-align: center;
+   margin-top: 150px;
+}
